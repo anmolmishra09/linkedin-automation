@@ -59,10 +59,10 @@ cp .env.example .env
 nano .env
 Basic Usage
 bash# Visit a LinkedIn profile (with browser visible for first-time login)
-go run . -profile "https://www.linkedin.com/in/username/" -mode profile
+go run . -profile "https://www.linkedin.com/in/anmolmishra09/" -mode profile
 
 # Run in headless mode (after initial login)
-go run . -profile "https://www.linkedin.com/in/username/" -mode profile -headless
+go run . -profile "https://www.linkedin.com/in/anmolmishra09/" -mode profile -headless
 
 # Search mode (to be implemented)
 go run . -mode search
